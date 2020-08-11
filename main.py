@@ -225,7 +225,7 @@ class Bot(discord.Client):
         if message.author == self.user or message.guild == None:
             return
 
-        if message.content.lower() == "lo":
+        if message.content.lower() == "ve":
             #await message.delete()
            # if BOT_OWNER_ROLE in []:
             self.embed_msg = None
